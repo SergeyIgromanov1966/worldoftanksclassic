@@ -1,0 +1,60 @@
+/* javascript classes */
+
+.js-template {
+    display: none !important;
+}
+
+.js-hidden {
+    display: none !important;
+}
+
+.js-dialog-title {
+    display: none !important;
+}
+
+.js-expand-window {
+    z-index: 600; 
+    position: relative; 
+    overflow:hidden; 
+}
+
+.js-page.js-disabled {
+    display: none !important;
+}
+.js-ellipsis-l.js-disabled {
+    display: none !important;
+}
+.js-ellipsis-r.js-disabled {
+    display: none !important;
+}
+.js-home.js-disabled {
+    display: none !important;
+}
+.js-end.js-disabled {
+    display: none !important;
+}
+
+.operaFix{
+	font-size:0;
+	height:0;
+	line-height:0;}
+/*
+     FILE ARCHIVED ON 21:42:08 Nov 15, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:41:45 May 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 328.311
+  exclusion.robots: 0.076
+  exclusion.robots.policy: 0.066
+  cdx.remote: 0.055
+  esindex: 0.01
+  LoadShardBlock: 267.365 (3)
+  PetaboxLoader3.datanode: 252.456 (4)
+  load_resource: 60.918
+  PetaboxLoader3.resolve: 37.221
+*/
