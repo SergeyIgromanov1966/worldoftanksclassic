@@ -1,0 +1,169 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 100%;
+}
+.b-search_select .jspVerticalBar
+{
+	top: 0;
+	left:0;
+	right: auto;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: #404040;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+    background: url(/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/scrollpane/img/track-bg.gif) repeat-y #101115;
+    position: relative;
+    border-left: 1px #08090a solid;
+    border-right: 1px #08090a solid;
+}
+
+.jspDrag
+{
+    border: 1px solid #555659;
+    background: url(/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/scrollpane/img/drag-bg.gif) repeat-y 0 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspDrag.jspHover {
+    background: url(/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/scrollpane/img/drag-bg.gif) repeat-y -18px 0;
+    border: 1px solid #6a6c70;
+}
+.jspArrow
+{
+	background: #080808;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspArrowDown {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -80px -102px;
+}
+.jspArrow.jspArrowDown:hover {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -80px -121px;
+}
+.jspArrow.jspArrowDown.jspActive {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -59px -230px;
+}
+.jspArrow.jspArrowDown.jspDisabled {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -80px -140px;
+}
+.jspArrow.jspArrowUp {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -60px -102px;
+}
+.jspArrow.jspArrowUp:hover {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -60px -121px;
+}
+.jspArrow.jspArrowUp.jspActive {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -20px -230px;
+}
+.jspArrow.jspArrowUp.jspDisabled {
+    background: url("/web/20111115214205im_/http://worldoftanks.ru/static/3.0.3/common/css/block/b-globalmap/img/navigation.png") no-repeat -60px -140px;
+}
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 19px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+    border: 1px solid #B0B0B0;
+	background: #303030;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+/*
+     FILE ARCHIVED ON 21:42:05 Nov 15, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:41:45 May 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 113.119
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.056
+  RedisCDXSource: 0.544
+  esindex: 0.007
+  LoadShardBlock: 94.501 (3)
+  PetaboxLoader3.datanode: 96.712 (4)
+  load_resource: 210.776
+  PetaboxLoader3.resolve: 179.215
+*/
